@@ -9,6 +9,8 @@ html {
 body {
   margin: 0;
   paddinig: 0;
+  background-color: #fffbf5;
+  line-height: 1.5;
   font-family: 'Catamaran', sans-serif;
 }
 nav {
@@ -30,7 +32,7 @@ nav ul li a {
   padding: 5px;
   text-decoration: none;
   color: #221f20;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   margin: 0 10px;
 }
@@ -41,4 +43,18 @@ nav ul li a:before {
 }
 nav ul li a:hover {
   color: #949494;
+}
+
+h1 {
+font-family: 'Marcellus', serif;
+font-size: 35px;
+}
+.about {
+  width: 100%;
+  padding; 78px 0px;
+}
+
+.about img {
+  height: auto;
+  width: 420px;
 }
